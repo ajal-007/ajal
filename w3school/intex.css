@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.firstcontainer{
+    background-color:#fff;
+    height: 35px;
+    width:100%;
+    display: flex;
+    gap: 2rem;
+    margin: 10px;
+    align-items: center;
+    margin-left: 1.4rem;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.FirstInnerDiv{
+    color: #fff;  
+}
+span {
+    font-size: 10px;
+}
+.search-icon{
+    width: 15px;
+    height: 15px;
+    margin-left: 55px;
+}
+.search-btn{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    font-style: italic;
+    color: grey;
+    border: 1px solid gray;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding:15px;
+    cursor: pointer;
+}
+.theme-icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.theme-icon:hover{
+    background-color:lightgrey;
+    border-radius: 8px;
+    border: 10rem;
+    
+}
+.secondcontainer{
+    display: flex;
+    gap: 1rem; 
+    text-align: center;
+    align-items: center; 
+    margin-left: 135px;
+    width: 100%;
+}
+.signup-btn{
+    width: 98px;
+    height:40px;
+    padding: 10px;
+    background-color: #04aa6d;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.section{
+    display: flex;
+    gap: 1.5rem;
+    background-color: rgb(60, 60, 60);
+    width: 100%;
+    height: 30px;
+    color: #fff;
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.last{
+    background-color: black;
+    font-weight: 200;
+}
+.icon-section{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.icons{
+    font-size: 16px;
+    display: flex;
+    gap: .7rem;
+}
+.first-hover:hover{
+    background-color: #04aa6d;
+      color: #fff;
+}
+.first-hover{
+    cursor: pointer;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.icon-section:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius:8px;
+}
+.signup-btn:hover{
+    background-color: #05794f;
+}
+.text:hover{
+    background-color:black;
+}
+.Space{
+    width: 100px;
+}
+.Upgrade{
+    width: 110px;
+}
